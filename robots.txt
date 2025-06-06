@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://appadaycreator.github.io/furusato-tax-calculator/sitemap.xml
+
+# Block access to common non-public files
+Disallow: /*.json$
+Disallow: /*.log$
+Disallow: /admin/
+Disallow: /private/
+
+# Allow crawling of important pages
+Allow: /index.html
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
